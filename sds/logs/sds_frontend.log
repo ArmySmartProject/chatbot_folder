@@ -1,0 +1,140 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2024-03-04 11:14:55.396  INFO 45237 --- [           main] m.b.sds.frontend.SdsFrontApplication     : Starting SdsFrontApplication on minds with PID 45237 (/home/minds/maum/sds/jar/brain-sds-frontend.jar started by minds in /home/minds/maum/sds)
+2024-03-04 11:14:55.400  INFO 45237 --- [           main] m.b.sds.frontend.SdsFrontApplication     : No active profile set, falling back to default profiles: default
+2024-03-04 11:14:58.775  INFO 45237 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28080 (http)
+2024-03-04 11:14:58.879  INFO 45237 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-04 11:14:58.879  INFO 45237 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2024-03-04 11:14:59.257  INFO 45237 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-04 11:14:59.258  INFO 45237 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3750 ms
+2024-03-04 11:15:01.023  INFO 45237 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-04 11:15:01.549  INFO 45237 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-03-04 11:15:01.758  INFO 45237 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28080 (http) with context path ''
+2024-03-04 11:15:01.763  INFO 45237 --- [           main] m.b.sds.frontend.SdsFrontApplication     : Started SdsFrontApplication in 7.355 seconds (JVM running for 8.28)
+2024-03-04 11:15:18.767  INFO 45237 --- [io-28080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-04 11:15:18.767  INFO 45237 --- [io-28080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-04 11:15:18.773  INFO 45237 --- [io-28080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-03-04 11:15:18.797  INFO 45237 --- [io-28080-exec-1] m.b.s.f.controller.RootController        : Default Connect
+2024-03-04 11:15:18.797  INFO 45237 --- [io-28080-exec-1] m.b.s.f.controller.RootController        : 2 Connect
+2024-03-04 11:15:19.016  INFO 45237 --- [io-28080-exec-1] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/2/chatbot_custom.css
+2024-03-04 11:15:19.016  INFO 45237 --- [io-28080-exec-1] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : chatbot_custom.css
+2024-03-04 11:15:19.019  INFO 45237 --- [io-28080-exec-1] m.b.sds.frontend.service.RootService     : host : 2, cssName : chatbot
+2024-03-04 11:38:58.450  INFO 45237 --- [io-28080-exec-1] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_floating.css
+2024-03-04 11:43:24.712  INFO 45237 --- [io-28080-exec-7] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_floating.css
+2024-03-04 11:43:24.921  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : Host init's Info : {No=1636, Email=, Description=, Language=1, Host=init, Name=init}
+2024-03-04 11:43:24.921  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1636/host_add.js
+2024-03-04 11:43:24.921  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 11:43:24.975  INFO 45237 --- [io-28080-exec-2] m.b.s.f.controller.RootController        : init Connect
+2024-03-04 11:43:24.977  INFO 45237 --- [io-28080-exec-2] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 11:43:25.023  INFO 45237 --- [io-28080-exec-4] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 11:43:25.470  INFO 45237 --- [o-28080-exec-10] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1636', lang='1', startIntent='default'}
+2024-03-04 11:53:55.971  INFO 45237 --- [io-28080-exec-8] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_floating.css
+2024-03-04 11:53:55.979  INFO 45237 --- [io-28080-exec-2] m.b.sds.frontend.service.SourceService   : Host init's Info : {No=1636, Email=, Description=, Language=1, Host=init, Name=init}
+2024-03-04 11:53:55.979  INFO 45237 --- [io-28080-exec-2] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1636/host_add.js
+2024-03-04 11:53:55.979  INFO 45237 --- [io-28080-exec-2] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 11:53:55.994  INFO 45237 --- [o-28080-exec-10] m.b.s.f.controller.RootController        : init Connect
+2024-03-04 11:53:55.998  INFO 45237 --- [o-28080-exec-10] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 11:53:56.018  INFO 45237 --- [io-28080-exec-1] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 11:53:56.233  INFO 45237 --- [io-28080-exec-7] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1636', lang='1', startIntent='default'}
+2024-03-04 13:24:48.489  INFO 45237 --- [io-28080-exec-7] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_floating.css
+2024-03-04 13:24:48.496  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : Host init's Info : {No=1636, Email=, Description=, Language=1, Host=init, Name=init}
+2024-03-04 13:24:48.496  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1636/host_add.js
+2024-03-04 13:24:48.496  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 13:24:48.512  INFO 45237 --- [io-28080-exec-6] m.b.s.f.controller.RootController        : init Connect
+2024-03-04 13:24:48.514  INFO 45237 --- [io-28080-exec-6] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:24:48.536  INFO 45237 --- [io-28080-exec-8] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:24:48.717  INFO 45237 --- [io-28080-exec-9] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1636', lang='1', startIntent='default'}
+2024-03-04 13:24:54.306  INFO 45237 --- [io-28080-exec-2] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_floating.css
+2024-03-04 13:24:54.306  INFO 45237 --- [io-28080-exec-5] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:31:19.891  INFO 45237 --- [io-28080-exec-5] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_floating.css
+2024-03-04 13:31:19.896  INFO 45237 --- [io-28080-exec-4] m.b.sds.frontend.service.SourceService   : Host init's Info : {No=1636, Email=, Description=, Language=1, Host=init, Name=init}
+2024-03-04 13:31:19.896  INFO 45237 --- [io-28080-exec-4] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1636/host_add.js
+2024-03-04 13:31:19.896  INFO 45237 --- [io-28080-exec-4] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 13:31:19.917  INFO 45237 --- [io-28080-exec-2] m.b.s.f.controller.RootController        : init Connect
+2024-03-04 13:31:19.919  INFO 45237 --- [io-28080-exec-2] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:31:19.941  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:31:20.160  INFO 45237 --- [io-28080-exec-9] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1636', lang='1', startIntent='default'}
+2024-03-04 13:31:49.289  INFO 45237 --- [io-28080-exec-8] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_floating.css
+2024-03-04 13:31:49.294  INFO 45237 --- [io-28080-exec-1] m.b.sds.frontend.service.SourceService   : Host init's Info : {No=1636, Email=, Description=, Language=1, Host=init, Name=init}
+2024-03-04 13:31:49.294  INFO 45237 --- [io-28080-exec-1] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1636/host_add.js
+2024-03-04 13:31:49.294  INFO 45237 --- [io-28080-exec-1] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 13:31:49.310  INFO 45237 --- [io-28080-exec-5] m.b.s.f.controller.RootController        : init Connect
+2024-03-04 13:31:49.312  INFO 45237 --- [io-28080-exec-5] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:31:49.331  INFO 45237 --- [io-28080-exec-4] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:31:49.531  INFO 45237 --- [io-28080-exec-3] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1636', lang='1', startIntent='default'}
+2024-03-04 13:33:51.020  INFO 45237 --- [o-28080-exec-10] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_floating.css
+2024-03-04 13:33:51.024  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : Host init's Info : {No=1636, Email=, Description=, Language=1, Host=init, Name=init}
+2024-03-04 13:33:51.025  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1636/host_add.js
+2024-03-04 13:33:51.025  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 13:33:51.045  INFO 45237 --- [io-28080-exec-8] m.b.s.f.controller.RootController        : init Connect
+2024-03-04 13:33:51.047  INFO 45237 --- [io-28080-exec-8] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:33:51.085  INFO 45237 --- [io-28080-exec-1] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:33:51.305  INFO 45237 --- [io-28080-exec-4] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1636', lang='1', startIntent='default'}
+2024-03-04 13:34:09.888 ERROR 45237 --- [io-28080-exec-2] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1636/IconImg
+2024-03-04 13:35:12.883  INFO 45237 --- [o-28080-exec-10] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_floating.css
+2024-03-04 13:35:12.888  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : Host init's Info : {No=1636, Email=, Description=, Language=1, Host=init, Name=init}
+2024-03-04 13:35:12.888  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1636/host_add.js
+2024-03-04 13:35:12.888  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 13:35:12.904  INFO 45237 --- [io-28080-exec-8] m.b.s.f.controller.RootController        : init Connect
+2024-03-04 13:35:12.906  INFO 45237 --- [io-28080-exec-8] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:35:12.922  INFO 45237 --- [io-28080-exec-1] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1636/chatbot_custom.css
+2024-03-04 13:35:13.103  INFO 45237 --- [io-28080-exec-4] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1636', lang='1', startIntent='default'}
+2024-03-04 13:35:44.195  INFO 45237 --- [io-28080-exec-2] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1637/chatbot_floating.css
+2024-03-04 13:35:44.210  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : Host init's Info : {No=1637, Email=, Description=, Language=1, Host=init, Name=init}
+2024-03-04 13:35:44.210  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1637/host_add.js
+2024-03-04 13:35:44.211  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 13:35:44.235  INFO 45237 --- [io-28080-exec-7] m.b.s.f.controller.RootController        : init Connect
+2024-03-04 13:35:44.237  INFO 45237 --- [io-28080-exec-7] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1637/chatbot_custom.css
+2024-03-04 13:35:44.255  INFO 45237 --- [io-28080-exec-6] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1637/chatbot_custom.css
+2024-03-04 13:35:44.290 ERROR 45237 --- [o-28080-exec-10] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1637/IconImg
+2024-03-04 13:35:44.487  INFO 45237 --- [io-28080-exec-1] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1637', lang='1', startIntent='default'}
+2024-03-04 13:35:45.506 ERROR 45237 --- [io-28080-exec-5] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1637/logoImg
+2024-03-04 13:58:22.320  INFO 45237 --- [io-28080-exec-2] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1637/chatbot_floating.css
+2024-03-04 13:58:22.325  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : Host init's Info : {No=1637, Email=, Description=, Language=1, Host=init, Name=init}
+2024-03-04 13:58:22.325  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1637/host_add.js
+2024-03-04 13:58:22.325  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 13:58:22.344  INFO 45237 --- [io-28080-exec-7] m.b.s.f.controller.RootController        : init Connect
+2024-03-04 13:58:22.346  INFO 45237 --- [io-28080-exec-7] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1637/chatbot_custom.css
+2024-03-04 13:58:22.378  INFO 45237 --- [io-28080-exec-4] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1637/chatbot_custom.css
+2024-03-04 13:58:22.406 ERROR 45237 --- [io-28080-exec-8] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1637/IconImg
+2024-03-04 13:58:22.630  INFO 45237 --- [io-28080-exec-8] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1637', lang='1', startIntent='default'}
+2024-03-04 13:58:23.620 ERROR 45237 --- [io-28080-exec-5] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1637/logoImg
+2024-03-04 13:58:26.337  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1638/chatbot_floating.css
+2024-03-04 13:58:26.342  INFO 45237 --- [o-28080-exec-10] m.b.sds.frontend.service.SourceService   : Host init2's Info : {No=1638, Email=, Description=, Language=1, Host=init2, Name=init2}
+2024-03-04 13:58:26.342  INFO 45237 --- [o-28080-exec-10] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1638/host_add.js
+2024-03-04 13:58:26.343  INFO 45237 --- [o-28080-exec-10] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 13:58:26.360  INFO 45237 --- [io-28080-exec-6] m.b.s.f.controller.RootController        : init2 Connect
+2024-03-04 13:58:26.362  INFO 45237 --- [io-28080-exec-6] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1638/chatbot_custom.css
+2024-03-04 13:58:26.381  INFO 45237 --- [io-28080-exec-7] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1638/chatbot_custom.css
+2024-03-04 13:58:26.404 ERROR 45237 --- [io-28080-exec-8] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1638/IconImg
+2024-03-04 13:58:26.562  INFO 45237 --- [io-28080-exec-1] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1638', lang='1', startIntent='default'}
+2024-03-04 13:58:27.636 ERROR 45237 --- [io-28080-exec-4] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1638/logoImg
+2024-03-04 13:58:41.217  INFO 45237 --- [io-28080-exec-2] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1638/chatbot_floating.css
+2024-03-04 13:58:41.220  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : Host init2's Info : {No=1638, Email=, Description=, Language=1, Host=init2, Name=init2}
+2024-03-04 13:58:41.221  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1638/host_add.js
+2024-03-04 13:58:41.221  INFO 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-04 13:58:41.236  INFO 45237 --- [o-28080-exec-10] m.b.s.f.controller.RootController        : init2 Connect
+2024-03-04 13:58:41.238  INFO 45237 --- [o-28080-exec-10] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1638/chatbot_custom.css
+2024-03-04 13:58:41.260  INFO 45237 --- [io-28080-exec-6] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1638/chatbot_custom.css
+2024-03-04 13:58:41.282 ERROR 45237 --- [io-28080-exec-7] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1638/IconImg
+2024-03-04 13:58:41.414  INFO 45237 --- [io-28080-exec-8] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1638', lang='1', startIntent='default'}
+2024-03-04 13:58:42.487 ERROR 45237 --- [io-28080-exec-5] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1638/logoImg
+2024-03-05 04:52:33.742  WARN 45237 --- [io-28080-exec-7] o.a.i.d.pooled.PooledDataSource          : Execution of ping query 'select 1' failed: The last packet successfully received from the server was 53,632,495 milliseconds ago.  The last packet sent successfully to the server was 53,632,495 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2024-03-05 04:52:33.743  WARN 45237 --- [io-28080-exec-7] o.a.i.d.pooled.PooledDataSource          : Execution of ping query 'select 1' failed: The last packet successfully received from the server was 53,632,482 milliseconds ago.  The last packet sent successfully to the server was 53,632,482 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2024-03-05 04:52:33.753  INFO 45237 --- [io-28080-exec-7] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1637/chatbot_floating.css
+2024-03-05 04:52:33.759  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : Host init's Info : {No=1637, Email=, Description=, Language=1, Host=init, Name=init}
+2024-03-05 04:52:33.760  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : checkStyleCSSByNo : /home/minds/maum/sds-builder/imgUpload/1637/host_add.js
+2024-03-05 04:52:33.760  INFO 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : NOT FOUND FILE : host_add.js
+2024-03-05 04:52:33.786  INFO 45237 --- [io-28080-exec-8] m.b.s.f.controller.RootController        : init Connect
+2024-03-05 04:52:33.789  INFO 45237 --- [io-28080-exec-8] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1637/chatbot_custom.css
+2024-03-05 04:52:33.921  INFO 45237 --- [io-28080-exec-7] m.b.sds.frontend.service.SourceService   : checkStyleCSS : /home/minds/maum/sds-builder/imgUpload/1637/chatbot_custom.css
+2024-03-05 04:52:34.114 ERROR 45237 --- [io-28080-exec-3] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1637/IconImg
+2024-03-05 04:52:34.520  INFO 45237 --- [io-28080-exec-2] m.b.s.f.controller.ConnectController     : HostInfoParams{host='1637', lang='1', startIntent='default'}
+2024-03-05 04:52:36.924 ERROR 45237 --- [io-28080-exec-9] m.b.sds.frontend.service.SourceService   : java.nio.file.NoSuchFileException: /home/minds/maum/sds-builder/imgUpload/1637/logoImg

@@ -1,0 +1,50 @@
+/*255,255,255, 84,84,84, http://10.50.1.19:28080/imagesLi/logoImg?host=1638, http://10.50.1.19:28080/imagesLi/IconImg?host=1638, http://10.50.1.19:28080/imagesLi/counselorImg?host=1638*/
+/* MINDsLab. UX/UI Team. AMR. 20201201 */
+#btn_goChat {border:2px solid rgba(84,84,84,1.0); background:url("http://10.50.1.19:28080/imagesLi/IconImg?host=1638") 50% 50% no-repeat; background-size:cover;}
+#chatUI_wrap .chatUI_top h1 {color:rgba(84,84,84,1.0); background: url("http://10.50.1.19:28080/imagesLi/logoImg?host=1638") no-repeat 50% 0; background-size: auto 34px; background-position: 50% 50%;}
+#chatUI_wrap .chatUI_top h1 img {height: 50px;}
+#chatUI_wrap .chatUI_top .langBox .lst_lang li button:hover,.chatUI_top .langBox .lst_lang li button:focus {border:1px solid rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_top .langBox .lst_lang li button.active {background:rgba(84,84,84,1.0); color:rgba(255,255,255,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk li.user .txt {background:rgba(84,84,84,1.0); color:rgba(255,255,255,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk li.bot:first-child:before {background:#fff url("http://10.50.1.19:28080/imagesLi/IconImg?host=1638") 50% 50% no-repeat; background-size:cover; }
+#chatUI_wrap li.user + li.bot:before {background:#fff url("http://10.50.1.19:28080/imagesLi/IconImg?host=1638") 50% 50% no-repeat; background-size:cover;}
+#chatUI_wrap li.stmMessage + li.bot:before {background:#fff url("http://10.50.1.19:28080/imagesLi/IconImg?host=1638") 50% 50% no-repeat; background-size:cover;}
+#chatUI_wrap li.user + li.bot.counselor:before {background-image: url("http://10.50.1.19:28080/imagesLi/counselorImg?host=1638"); background-color: rgb(84,84,84);}
+#chatUI_wrap li.stmMessage + li.bot.counselor:before {background-image: url("http://10.50.1.19:28080/imagesLi/counselorImg?host=1638"); background-color: rgb(84,84,84);}
+#chatUI_wrap .chatLoading > em {background-color:rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .generic .generic_tit a {color:rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .generic .generic_tit a:before {background:rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .generic .generic_tit a:after {background:rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .generic .generic_url a {color:rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .generic .generic_url a:before {background:rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .generic .generic_url a:after {background:rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .btnLst ul li a {color:rgba(84,84,84,1.0); }
+#chatUI_wrap .chatUI_mid .lst_talk .btnLst ul li a:hover {box-shadow:rgba(84,84,84,1.0) 0 80px 0 2px inset;}
+#chatUI_wrap .chatUI_mid .lst_talk .btnLst ul li a.active {background:rgba(84,84,84,1.0); color:rgba(255,255,255,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .btnLst .btnBox button.btn_point {background:rgba(84,84,84,1.0); color:rgba(255,255,255,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .btnItem ul li a {color:rgba(84,84,84,1.0); box-shadow:rgba(84,84,84,0) 0 0 0 2px inset;}
+#chatUI_wrap .chatUI_mid .lst_talk .btnItem ul li a:hover {box-shadow:rgba(84,84,84,1.0) 0 80px 0 2px inset;}
+#chatUI_wrap .chatUI_mid .lst_talk .btnItem ul li a.btnStart {box-shadow:rgba(84,84,84,1.0) 0 80px 0 2px inset; background:rgba(84,84,84,1.0); color:rgba(255,255,255,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .btnItem ul li a.active {background:rgba(84,84,84,1.0); color:rgba(255,255,255,1.0);}
+#chatUI_wrap li.bot_promotion:before {background: rgba(84,84,84,1.0) url("http://10.50.1.19:28080/imagesLi/IconImg?host=1638") 50% 50% no-repeat; background-size: cover;}
+#chatUI_wrap .chatUI_mid .lst_talk .bot_promotion .generic .generic_tit {color: rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk li.botMsg_swiper a.swiper_item:hover {border:1px solid rgba(84,84,84,1.0);}
+#chatUI_wrap .full_preview .swiper-pagination-bullet-active {background:rgba(84,84,84,1.0);}
+#chatUI_wrap .swiper-button-prev, .swiper-container-rtl .swiper-button-next {background:rgba(84,84,84,0.9) url("../resources/images/arw_left_w.png") center center no-repeat;}
+#chatUI_wrap .swiper-button-next, .swiper-container-rtl .swiper-button-prev {background:rgba(84,84,84,0.9) url("../resources/images/arw_right_w.png") center center no-repeat;}
+#chatUI_wrap .swiper-pagination-bullet-active {background:rgba(84,84,84,1.0);}
+#chatUI_wrap .full_preview .swiper-pagination-bullets .swiper-pagination-bullet {border: 1px solid rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_btm .textArea:focus {border:1px solid rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_btm .btn_chat {background-color:rgba(84,84,84,1.0);}
+.chatAside .checkBox input[type="checkbox"]:checked + label:before{border-color:rgba(84,84,84,1.0); background:rgba(84,84,84,1.0); color:rgba(255,255,255,1.0);}
+.chatAside .radioBox input[type="radio"]:checked + label:before{border-color:rgba(84,84,84,1.0); background:rgba(84,84,84,1.0); color:rgba(255,255,255,1.0);}
+.chatAside .chatAside_hd h3 {color:rgba(84,84,84,1.0);}
+.chatAside .chatAside_bd .btnBox button.btn_point {background:rgba(84,84,84,1.0);}
+.chatAside .chatAside_bd .stnBox.popup .popup_content .ico_circle {background: rgba(84,84,84,1.0);}
+#chatUI_wrap .txt .txt_btn a {color:rgba(84,84,84,1.0) !important; box-shadow:rgba(84,84,84,0) 0 0 0 2px inset;}
+#chatUI_wrap .txt .txt_btn a:hover {border:1px solid rgba(84,84,84,0) !important; box-shadow:rgba(84,84,84,1.0) 0 80px 0 2px inset;}
+#chatUI_wrap .txt .txt_btns a {color:rgba(84,84,84,1.0) !important; box-shadow:rgba(84,84,84,0) 0 0 0 2px inset;}
+#chatUI_wrap .txt .txt_btns a:hover {border:1px solid rgba(84,84,84,0) !important;  box-shadow:rgba(84,84,84,1.0) 0 80px 0 2px inset;}
+#chatUI_wrap .mapWrap .mapWrap_cont .btn_mapLoad_detail {background:rgba(84,84,84,1.0);}
+#chatUI_wrap .chatUI_mid .lst_talk .btnLst .txt.txt_radius {background: rgba(84,84,84,1.0); color:rgba(255,255,255,1.0);}
+.svc_btns {background-color:rgba(84,84,84,1.0);}

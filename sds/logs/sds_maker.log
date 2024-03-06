@@ -1,0 +1,234 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2024-03-04 11:14:55.244  INFO 45240 --- [           main] m.b.sds.maker.DecisionMakerApplication   : Starting DecisionMakerApplication on minds with PID 45240 (/home/minds/maum/sds/jar/brain-sds-maker.jar started by minds in /home/minds/maum/sds)
+2024-03-04 11:14:55.248  INFO 45240 --- [           main] m.b.sds.maker.DecisionMakerApplication   : No active profile set, falling back to default profiles: default
+2024-03-04 11:14:58.623  INFO 45240 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7650 (http)
+2024-03-04 11:14:58.694  INFO 45240 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-04 11:14:58.695  INFO 45240 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2024-03-04 11:14:59.022  INFO 45240 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-04 11:14:59.023  INFO 45240 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3666 ms
+2024-03-04 11:15:01.247  INFO 45240 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-04 11:15:01.767  INFO 45240 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7650 (http) with context path ''
+2024-03-04 11:15:01.772  INFO 45240 --- [           main] m.b.sds.maker.DecisionMakerApplication   : Started DecisionMakerApplication in 7.444 seconds (JVM running for 8.288)
+2024-03-04 11:43:27.150  INFO 45240 --- [nio-7650-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-04 11:43:27.150  INFO 45240 --- [nio-7650-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-04 11:43:27.161  INFO 45240 --- [nio-7650-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+SdsMakerRequest : SdsMakerRequest{host='1636', session='9908897a-34b9-dbaa-f8eb-fb4d04dcfdec', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='2fa0f8cd-9193-ac72-7ac7-971bf4eb6574', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='b634cd0d-3f7e-006e-3d26-bbb90bf3770c', srcIntent='', intent=SdsIntent{intent='', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='네 안녕하세요'}, entities=[], memories=[], lang='1', bertIntent='0', meta=null}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='b634cd0d-3f7e-006e-3d26-bbb90bf3770c', srcIntent='', intent=SdsIntent{intent='', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='네 안녕하세요'}, entities=[], memories=[], lang='1', bertIntent='0', meta=null}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='a82b0d1c-a389-2bd1-069e-90494d01cf9a', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='aa32df20-3858-ea45-aa25-82eb4536b30f', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='55c4d890-8314-98a3-d712-0479ecd45a51', srcIntent='', intent=SdsIntent{intent='선톡', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='선톡'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='436bd74a-cf7e-91bc-fc6a-623d8cbe33ff', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='fc03caad-3c0b-027a-c81a-c44943cc16b3', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='0d8f6c03-ebcf-50cd-4580-a6342add6e80', srcIntent='', intent=SdsIntent{intent='선톡', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='선톡'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='f0dd5028-7b43-ad47-257b-734fa9dc5566', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='f66a4823-f412-27bc-0e5d-920849605523', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='b3cf11d8-58f8-e522-30f2-d13856a8b6c0', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='e409bfc3-d31b-c738-1210-ec0704240988', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='d344d081-7110-3083-9189-914d099d9b3c', srcIntent='', intent=SdsIntent{intent='선톡', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='선톡'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='333b6f3b-ec1f-d666-e411-9658d10beb50', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='a6c49a5e-f47a-7745-92fb-3b9edfb4fc40', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='60f70f19-6818-ffc6-a883-61d37394de35', srcIntent='', intent=SdsIntent{intent='선톡', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='선톡'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='fc343223-71bd-4260-b681-c9c8927e3ffb', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+SdsMakerRequest : SdsMakerRequest{host='1636', session='039c6e1f-8eaa-7aba-e142-d1c5761dc9ee', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+SdsMakerRequest : SdsMakerRequest{host='1637', session='cb02acd3-466d-98f6-46bd-5a65f2c836f5', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+SdsMakerRequest : SdsMakerRequest{host='1637', session='94f7d175-3456-fa8f-6f79-ef8da7239f84', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+entity list from answer : []
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+SdsMakerRequest : SdsMakerRequest{host='1637', session='acf645e9-af1b-0923-7081-9d52e18cf04f', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+SdsMakerRequest : SdsMakerRequest{host='1637', session='0cb08af2-f305-663c-db0e-037a30b10976', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+SdsMakerRequest : SdsMakerRequest{host='1638', session='36d616d1-f18e-2442-99b6-bf38efe15ef0', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+SdsMakerRequest : SdsMakerRequest{host='1638', session='33c7cc3b-d1ff-7a20-e18e-d459ebe560eb', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+SdsMakerRequest : SdsMakerRequest{host='1638', session='943f9f15-164d-1152-f906-029b711f8ac3', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+SdsMakerRequest : SdsMakerRequest{host='1638', session='c1ee0292-9025-457c-f5e2-d0701956b66f', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요 init2 입니다', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='', responseOrder='0,1,2', h_task=''}]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요 init2 입니다', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='', responseOrder='0,1,2', h_task=''}
+SdsMakerRequest : SdsMakerRequest{host='1637', session='81ce61dc-1ed8-43cd-a9d8-9567c651e786', srcIntent='', intent=SdsIntent{intent='처음으로', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='처음으로'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+SdsMakerRequest : SdsMakerRequest{host='1637', session='a4a4e570-9f69-c964-5a55-882d483d0534', srcIntent='', intent=SdsIntent{intent='챗봇공지사항', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='챗봇공지사항'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+2024-03-05 04:52:34.634  WARN 45240 --- [nio-7650-exec-6] o.a.i.d.pooled.PooledDataSource          : Execution of ping query 'select 1' failed: The last packet successfully received from the server was 53,633,142 milliseconds ago.  The last packet sent successfully to the server was 53,633,142 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+2024-03-05 04:52:34.636  WARN 45240 --- [nio-7650-exec-6] o.a.i.d.pooled.PooledDataSource          : Execution of ping query 'select 1' failed: The last packet successfully received from the server was 53,633,151 milliseconds ago.  The last packet sent successfully to the server was 53,633,152 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+maker dbResponses =====[DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+maker for ======DbResponseDto{hi='null', answer='안녕하세요', next='', name='', type='', url='', ds='', display='처음으로', answerUrl='null', responseOrder='0,1,2', h_task=''}
+SdsMakerRequest : SdsMakerRequest{host='1637', session='4cdc1828-8b27-0529-1a08-d63ad1405581', srcIntent='', intent=SdsIntent{intent='', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='안녕하세요'}, entities=[], memories=[], lang='1', bertIntent='0', meta=null}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+SdsMakerRequest : SdsMakerRequest{host='1637', session='4cdc1828-8b27-0529-1a08-d63ad1405581', srcIntent='', intent=SdsIntent{intent='', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='안녕하세요'}, entities=[], memories=[], lang='1', bertIntent='0', meta=null}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}
+SdsMakerRequest : SdsMakerRequest{host='1637', session='2d0f557e-012f-679c-9b26-1c595077f093', srcIntent='', intent=SdsIntent{intent='선톡', hierarchy=1, entityFlag=false, displayName='null', displayType='null', displayUrl='null', displayText='null', h_task='null'}, utter=SdsUtter{utter='선톡'}, entities=[], memories=[], lang='1', bertIntent='', meta=SdsMeta{intentRel=null, restApiDto=null}}
+entitySet: {}
+maker dbResponses =====[]
+dbResponse Answer Error - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+entity list from answer : []
+entity info from memory : {}

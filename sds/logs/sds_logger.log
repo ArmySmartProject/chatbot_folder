@@ -1,0 +1,36 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2024-03-04 11:14:55.348  INFO 45241 --- [           main] m.b.sds.logdb.DatabaseLoggerApplication  : Starting DatabaseLoggerApplication on minds with PID 45241 (/home/minds/maum/sds/jar/brain-sds-log-store.jar started by minds in /home/minds/maum/sds)
+2024-03-04 11:14:55.374  INFO 45241 --- [           main] m.b.sds.logdb.DatabaseLoggerApplication  : No active profile set, falling back to default profiles: default
+2024-03-04 11:14:59.031  INFO 45241 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 6950 (http)
+2024-03-04 11:14:59.106  INFO 45241 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-04 11:14:59.106  INFO 45241 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2024-03-04 11:14:59.314  INFO 45241 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-04 11:14:59.314  INFO 45241 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3817 ms
+2024-03-04 11:15:00.392  INFO 45241 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-04 11:15:01.392  INFO 45241 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 6950 (http) with context path ''
+2024-03-04 11:15:01.405  INFO 45241 --- [           main] m.b.sds.logdb.DatabaseLoggerApplication  : Started DatabaseLoggerApplication in 7.001 seconds (JVM running for 7.922)
+SessionLogMaxIDChecker :: nowMaxID : 1
+2024-03-04 11:43:36.763  INFO 45241 --- [nio-6950-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-04 11:43:36.763  INFO 45241 --- [nio-6950-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-04 11:43:36.771  INFO 45241 --- [nio-6950-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+LogAnswerRequest{utter='네 안녕하세요', answer='null', host=0}
+LogSessionCountRequest{host=1636, lang='1', sessionId='b634cd0d-3f7e-006e-3d26-bbb90bf3770c', channel='{"device":"PC","channel":"HOMEPAGE","country":"**"}'}
+LogSessionDto{newSessionID=2, host=1636, session='b634cd0d-3f7e-006e-3d26-bbb90bf3770c', channel='{"device":"PC","channel":"HOMEPAGE","country":"**"}', botCnt=1, consultantCnt=0, lang1Cnt=1, lang2Cnt=0, lang3Cnt=0, lang4Cnt=0}
+LogIntentRequest{session='b634cd0d-3f7e-006e-3d26-bbb90bf3770c', utter='네 안녕하세요', intent='', host=1636, lang='1', prob=0.0, prevIntentUtter='null', jsonData='{"device":"PC","channel":"HOMEPAGE","country":"**"}', jsonDebugData='{"input":"네 안녕하세요","sdsLog":"[RegEx] No Match, Input: 네 안녕하세요\n[BERT-ITC] ERR: {}target\n[getIntent 시간 측정 \/ 임시로그] host: 1636, getIntent() :69 ms","metaData":"","prob":0,"engine":"fallback","replace":"","model":"fallback","ERROR":"Maker memory Error","taskRel":"fallback","type":"utter","bertIntent":"0"}', answer='null', sessionID='2'}
+2024-03-04 11:43:36.970  INFO 45241 --- [nio-6950-exec-4] m.brain.sds.logdb.service.LoggerService  : LogIntentRequest{session='b634cd0d-3f7e-006e-3d26-bbb90bf3770c', utter='네 안녕하세요', intent='', host=1636, lang='1', prob=0.0, prevIntentUtter='null', jsonData='{"device":"PC","channel":"HOMEPAGE","country":"**"}', jsonDebugData='{"input":"네 안녕하세요","sdsLog":"[RegEx] No Match, Input: 네 안녕하세요\n[BERT-ITC] ERR: {}target\n[getIntent 시간 측정 \/ 임시로그] host: 1636, getIntent() :69 ms","metaData":"","prob":0,"engine":"fallback","replace":"","model":"fallback","ERROR":"Maker memory Error","taskRel":"fallback","type":"utter","bertIntent":"0"}', answer='null', sessionID='2'}
+LogEntityRequest{session='b634cd0d-3f7e-006e-3d26-bbb90bf3770c', utter='네 안녕하세요', entities=[], host=1636, lang='1'}
+LogAnswerRequest{utter='안녕하세요', answer='null', host=0}
+2024-03-05 04:52:42.143  WARN 45241 --- [nio-6950-exec-7] o.a.i.d.pooled.PooledDataSource          : Execution of ping query 'select 1' failed: The last packet successfully received from the server was 61,745,158 milliseconds ago.  The last packet sent successfully to the server was 61,745,160 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+LogSessionCountRequest{host=1637, lang='1', sessionId='4cdc1828-8b27-0529-1a08-d63ad1405581', channel='{"device":"PC","channel":"HOMEPAGE","country":"**"}'}
+LogSessionDto{newSessionID=3, host=1637, session='4cdc1828-8b27-0529-1a08-d63ad1405581', channel='{"device":"PC","channel":"HOMEPAGE","country":"**"}', botCnt=1, consultantCnt=0, lang1Cnt=1, lang2Cnt=0, lang3Cnt=0, lang4Cnt=0}
+LogIntentRequest{session='4cdc1828-8b27-0529-1a08-d63ad1405581', utter='안녕하세요', intent='', host=1637, lang='1', prob=0.0, prevIntentUtter='null', jsonData='{"device":"PC","channel":"HOMEPAGE","country":"**"}', jsonDebugData='{"input":"안녕하세요","sdsLog":"[RegEx] No Match, Input: 안녕하세요\n[BERT-ITC] ERR: {}target\n[getIntent 시간 측정 \/ 임시로그] host: 1637, getIntent() :8 ms","metaData":"","prob":0,"engine":"fallback","replace":"","model":"fallback","ERROR":"Maker memory Error","taskRel":"fallback","type":"utter","bertIntent":"0"}', answer='null', sessionID='3'}
+2024-03-05 04:52:42.180  INFO 45241 --- [io-6950-exec-10] m.brain.sds.logdb.service.LoggerService  : LogIntentRequest{session='4cdc1828-8b27-0529-1a08-d63ad1405581', utter='안녕하세요', intent='', host=1637, lang='1', prob=0.0, prevIntentUtter='null', jsonData='{"device":"PC","channel":"HOMEPAGE","country":"**"}', jsonDebugData='{"input":"안녕하세요","sdsLog":"[RegEx] No Match, Input: 안녕하세요\n[BERT-ITC] ERR: {}target\n[getIntent 시간 측정 \/ 임시로그] host: 1637, getIntent() :8 ms","metaData":"","prob":0,"engine":"fallback","replace":"","model":"fallback","ERROR":"Maker memory Error","taskRel":"fallback","type":"utter","bertIntent":"0"}', answer='null', sessionID='3'}
+LogEntityRequest{session='4cdc1828-8b27-0529-1a08-d63ad1405581', utter='안녕하세요', entities=[], host=1637, lang='1'}

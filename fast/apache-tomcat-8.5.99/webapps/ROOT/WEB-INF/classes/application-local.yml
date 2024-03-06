@@ -1,0 +1,147 @@
+database:
+  # main DB type
+  active: mysql
+
+spring:
+  # main DB (mariaDB 변경)
+  datasource1:
+    jdbc-url: jdbc:log4jdbc:mysql://localhost:3306/HAPPYCALL4?useUnicode=yes&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=Asia/Seoul&useSSL=false
+    username: minds
+    password: msl1234~
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+  datasource2:
+    jdbc-url: jdbc:log4jdbc:mysql://localhost:3306/Chatbot?useUnicode=yes&allowMultiQueries=true&serverTimezone=Asia/Seoul&useSSL=false
+    username: minds
+    password: msl1234~
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+  batch:
+    initialize-schema: never
+    job:
+      enabled: false
+  main:
+    allow-bean-definition-overriding: true
+
+websocket:
+  protocol: wss
+  ip: localhost
+  port: ':13254'
+
+audio:
+  ip: localhost
+  port: ':15000'
+
+rest:
+  ip: localhost
+  port: ':15000'
+  ssl: false
+
+voice:
+  ip: localhost
+  port: ':5800'
+
+proxy:
+  protocol: ws
+  ip: localhost
+  port: ':18080'
+
+chatting:
+  ip: localhost
+  port: ':50000'
+
+excel:
+  form:
+    path: '/home/Documents/Downloads/'
+  upload:
+    path: '/home/Documents/Downloads/'
+
+mail-info:
+  username: 'mailtest0218'
+  password: 'a123456789!'
+  port: 465
+  host: 'smtp.gmail.com'
+  Internet-address: 'mailtest0218@gmail.com'
+
+obcalltotal:
+  ip: localhost
+  port: ':5002'
+  protocol: '/call_stat'
+
+solr:
+  url: 'http://10.122.64.152:8983/solr/mrc'
+  en_url: 'http://10.122.64.152:8983/solr/mrc'
+
+domain: http://localhost:18080
+
+cookie:
+  domainName: localhost
+
+autocall:
+  is-execute: false
+  batch-interval-time: 10
+  check-valid-url: ''
+
+msgtalk:
+  is-execute: false
+  batch-interval-time: '*/30 * * * * *'
+  check-valid-url: ''
+
+#현대해상 : hdhs, maum-ai: maumAi
+site-custom: 'maumAi'
+
+iframe_url:
+  simplebot: 'http://localhost:8080/upload/simpleBot'
+  chatbotBuilder: 'http://localhost:8080/upload/chatbotBuilder'
+  voicebotBuilder: 'http://localhost:8080/upload/vbBuilder'
+
+api:
+  simplebot:
+    get_list_url: 'http://localhost:8080/upload/simpleBot/getSimpleBotList'
+
+
+# JWT signKey
+maum:
+  SigningKey: MindsLABMAUMAccountManagementSystemAMS1234567890
+
+sso:
+  mindslab:
+    client-id: fast-aicc.local
+    request:
+      authorize:
+        url: https://hq.maum.ai:10080/hq/oauth/authorize
+      request-token:
+        url: https://dev-sso.maum.ai/hq/oauth/token
+      logout-token:
+        url: https://naccount.maum.ai/logout
+      maum-login:
+        url: https://maum.ai/auth/login
+    callback:
+      token:
+        url: http://localhost:8443/login
+    companyId: comp007 #추후 수정 필요
+    companyGroupId: 13 #추후 수정 필요
+
+# PW Change month
+pw-month: 3
+# PW Error max
+pw-err-max: 5
+
+
+#사이트에 맞게 수정
+logging:
+  file:
+    fast: /
+    da: /
+    cm: /
+    sds: /
+  name:
+    fast: log.log
+    da: log.log
+    cm: log.log
+    sds: log.log
+  maxThread : 3
+#작업의뢰 form,upload 경로 설정
+work-request:
+  form:
+    path: '/home/Documents/Downloads/work-request/form/'
+  upload:
+    path: '/home/Documents/Downloads/work-request/upload/'

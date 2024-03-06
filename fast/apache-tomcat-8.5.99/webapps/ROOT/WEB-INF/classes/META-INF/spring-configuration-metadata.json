@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource1",
+      "type": "javax.sql.DataSource",
+      "sourceType": "ai.maum.biz.fastaicc.common.config.MainDatabaseConfig",
+      "sourceMethod": "mainDataSource()"
+    },
+    {
+      "name": "spring.datasource2",
+      "type": "javax.sql.DataSource",
+      "sourceType": "ai.maum.biz.fastaicc.common.config.SubDatabaseConfig",
+      "sourceMethod": "subDataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

@@ -1,0 +1,25 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2024-03-04 11:14:55.385  INFO 45242 --- [           main] maum.brain.cache.CacheServerApplication  : Starting CacheServerApplication on minds with PID 45242 (/home/minds/maum/sds/jar/brain-sds-cache.jar started by minds in /home/minds/maum/sds)
+2024-03-04 11:14:55.392  INFO 45242 --- [           main] maum.brain.cache.CacheServerApplication  : No active profile set, falling back to default profiles: default
+2024-03-04 11:14:58.479  INFO 45242 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 11160 (http)
+2024-03-04 11:14:58.527  INFO 45242 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-04 11:14:58.527  INFO 45242 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2024-03-04 11:14:58.730  INFO 45242 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-04 11:14:58.731  INFO 45242 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3185 ms
+2024-03-04 11:15:00.373  INFO 45242 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-04 11:15:01.220  INFO 45242 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 11160 (http) with context path ''
+2024-03-04 11:15:01.225  INFO 45242 --- [           main] maum.brain.cache.CacheServerApplication  : Started CacheServerApplication in 6.785 seconds (JVM running for 7.737)
+2024-03-04 11:43:36.734  INFO 45242 --- [io-11160-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-04 11:43:36.734  INFO 45242 --- [io-11160-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-04 11:43:36.740  INFO 45242 --- [io-11160-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+[POST ] SdsCacheController :: addCache :: SdsAddCacheRequest{host='1636', prevIntent='', bertIntent='', answer='{"answer":{},"setMemory":{"utter":{"utter":"네 안녕하세요"},"intent":{"hierarchy":1,"entityFlag":false},"entities":{},"lifespan":3,"host":"1636","session":"b634cd0d-3f7e-006e-3d26-bbb90bf3770c"},"jsonDebug":"{\"input\":\"네 안녕하세요\",\"sdsLog\":\"[RegEx] No Match, Input: 네 안녕하세요\\n[BERT-ITC] ERR: {}target\\n[getIntent 시간 측정 \\/ 임시로그] host: 1636, getIntent() :69 ms\",\"metaData\":\"\",\"prob\":0,\"engine\":\"fallback\",\"replace\":\"\",\"model\":\"fallback\",\"ERROR\":\"Maker memory Error\",\"taskRel\":\"fallback\",\"type\":\"utter\",\"bertIntent\":\"0\"}","engines":{}}', nowUtter=true, lang='1'}
+[POST ] SdsCacheController :: delCache :: 1638
+[POST ] SdsCacheController :: addCache :: SdsAddCacheRequest{host='1637', prevIntent='', bertIntent='', answer='{"answer":{},"setMemory":{"utter":{"utter":"안녕하세요"},"intent":{"hierarchy":1,"entityFlag":false},"entities":{},"lifespan":3,"host":"1637","session":"4cdc1828-8b27-0529-1a08-d63ad1405581"},"jsonDebug":"{\"input\":\"안녕하세요\",\"sdsLog\":\"[RegEx] No Match, Input: 안녕하세요\\n[BERT-ITC] ERR: {}target\\n[getIntent 시간 측정 \\/ 임시로그] host: 1637, getIntent() :8 ms\",\"metaData\":\"\",\"prob\":0,\"engine\":\"fallback\",\"replace\":\"\",\"model\":\"fallback\",\"ERROR\":\"Maker memory Error\",\"taskRel\":\"fallback\",\"type\":\"utter\",\"bertIntent\":\"0\"}","engines":{}}', nowUtter=true, lang='1'}
