@@ -1,0 +1,585 @@
+20240308 00:00:00.001 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1291. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 00:00:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 00:00:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 00:00:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+00:00:00', '%H'), ':', date_format('2024-03-08 00:00:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 00:00:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 00:10:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1291. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 00:10:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 00:10:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 00:10:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+00:10:00', '%H'), ':', date_format('2024-03-08 00:10:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 00:10:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 00:20:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1311. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 00:20:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 00:20:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 00:20:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+00:20:00', '%H'), ':', date_format('2024-03-08 00:20:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 00:20:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 00:30:00.001 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1311. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 00:30:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 00:30:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 00:30:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+00:30:00', '%H'), ':', date_format('2024-03-08 00:30:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 00:30:00.001 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 00:40:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1311. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 00:40:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 00:40:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 00:40:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+00:40:00', '%H'), ':', date_format('2024-03-08 00:40:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 00:40:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 00:50:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1331. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 00:50:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 00:50:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 00:50:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+00:50:00', '%H'), ':', date_format('2024-03-08 00:50:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 00:50:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 01:00:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1331. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 01:00:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 01:00:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 01:00:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+01:00:00', '%H'), ':', date_format('2024-03-08 01:00:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 01:00:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 01:10:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1332. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 01:10:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 01:10:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 01:10:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+01:10:00', '%H'), ':', date_format('2024-03-08 01:10:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 01:10:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 01:20:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1351. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 01:20:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 01:20:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 01:20:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+01:20:00', '%H'), ':', date_format('2024-03-08 01:20:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 01:20:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 01:30:00.001 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1351. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 01:30:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 01:30:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 01:30:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+01:30:00', '%H'), ':', date_format('2024-03-08 01:30:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 01:30:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 01:40:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1352. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 01:40:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 01:40:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 01:40:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+01:40:00', '%H'), ':', date_format('2024-03-08 01:40:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 01:40:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 01:50:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1371. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 01:50:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 01:50:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 01:50:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+01:50:00', '%H'), ':', date_format('2024-03-08 01:50:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 01:50:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 02:00:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1371. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 02:00:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 02:00:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 02:00:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+02:00:00', '%H'), ':', date_format('2024-03-08 02:00:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 02:00:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 02:10:00.003 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1373. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 02:10:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 02:10:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 02:10:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+02:10:00', '%H'), ':', date_format('2024-03-08 02:10:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 02:10:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 02:20:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1391. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 02:20:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 02:20:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 02:20:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+02:20:00', '%H'), ':', date_format('2024-03-08 02:20:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 02:20:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 02:30:00.001 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1391. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 02:30:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 02:30:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 02:30:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+02:30:00', '%H'), ':', date_format('2024-03-08 02:30:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 02:30:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 02:40:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1394. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 02:40:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 02:40:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 02:40:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+02:40:00', '%H'), ':', date_format('2024-03-08 02:40:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 02:40:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 02:50:00.003 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1411. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 02:50:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 02:50:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 02:50:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+02:50:00', '%H'), ':', date_format('2024-03-08 02:50:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 02:50:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 03:00:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1411. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 03:00:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 03:00:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 03:00:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+03:00:00', '%H'), ':', date_format('2024-03-08 03:00:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 03:00:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 03:10:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1414. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 03:10:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 03:10:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 03:10:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+03:10:00', '%H'), ':', date_format('2024-03-08 03:10:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 03:10:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 03:20:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1431. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 03:20:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 03:20:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 03:20:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+03:20:00', '%H'), ':', date_format('2024-03-08 03:20:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 03:20:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 03:30:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1431. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 03:30:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 03:30:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 03:30:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+03:30:00', '%H'), ':', date_format('2024-03-08 03:30:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 03:30:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 03:40:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1434. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 03:40:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 03:40:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 03:40:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+03:40:00', '%H'), ':', date_format('2024-03-08 03:40:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 03:40:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 03:50:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1451. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 03:50:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 03:50:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 03:50:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+03:50:00', '%H'), ':', date_format('2024-03-08 03:50:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 03:50:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 04:00:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1451. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 04:00:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 04:00:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 04:00:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+04:00:00', '%H'), ':', date_format('2024-03-08 04:00:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 04:00:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 04:10:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1455. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 04:10:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 04:10:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 04:10:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+04:10:00', '%H'), ':', date_format('2024-03-08 04:10:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 04:10:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 04:20:00.003 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1471. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 04:20:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 04:20:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 04:20:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+04:20:00', '%H'), ':', date_format('2024-03-08 04:20:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 04:20:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 04:30:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1471. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 04:30:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 04:30:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 04:30:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+04:30:00', '%H'), ':', date_format('2024-03-08 04:30:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 04:30:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 04:40:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1476. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 04:40:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 04:40:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 04:40:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+04:40:00', '%H'), ':', date_format('2024-03-08 04:40:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 04:40:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 04:50:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1491. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 04:50:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 04:50:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 04:50:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+04:50:00', '%H'), ':', date_format('2024-03-08 04:50:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 04:50:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 05:00:00.001 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1491. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 05:00:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 05:00:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 05:00:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+05:00:00', '%H'), ':', date_format('2024-03-08 05:00:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 05:00:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 05:10:00.003 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1496. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 05:10:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 05:10:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 05:10:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+05:10:00', '%H'), ':', date_format('2024-03-08 05:10:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 05:10:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 05:20:00.008 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1511. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 05:20:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 05:20:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 05:20:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+05:20:00', '%H'), ':', date_format('2024-03-08 05:20:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 05:20:00.008 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 05:30:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1511. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 05:30:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 05:30:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 05:30:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+05:30:00', '%H'), ':', date_format('2024-03-08 05:30:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 05:30:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 05:40:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1519. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 05:40:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 05:40:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 05:40:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+05:40:00', '%H'), ':', date_format('2024-03-08 05:40:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 05:40:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 05:50:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1531. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 05:50:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 05:50:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 05:50:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+05:50:00', '%H'), ':', date_format('2024-03-08 05:50:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 05:50:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 06:00:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1531. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 06:00:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 06:00:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 06:00:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+06:00:00', '%H'), ':', date_format('2024-03-08 06:00:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 06:00:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 06:10:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1540. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 06:10:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 06:10:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 06:10:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+06:10:00', '%H'), ':', date_format('2024-03-08 06:10:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 06:10:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 06:20:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1551. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 06:20:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 06:20:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 06:20:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+06:20:00', '%H'), ':', date_format('2024-03-08 06:20:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 06:20:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 06:30:00.001 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1551. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 06:30:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 06:30:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 06:30:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+06:30:00', '%H'), ':', date_format('2024-03-08 06:30:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 06:30:00.001 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 06:40:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1560. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 06:40:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 06:40:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 06:40:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+06:40:00', '%H'), ':', date_format('2024-03-08 06:40:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 06:40:00.003 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 06:50:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1571. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 06:50:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 06:50:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 06:50:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+06:50:00', '%H'), ':', date_format('2024-03-08 06:50:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 06:50:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 07:00:00.001 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1571. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 07:00:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 07:00:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 07:00:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+07:00:00', '%H'), ':', date_format('2024-03-08 07:00:00', '%i') div 10, '0') 
+ {executed in 0 msec} 
+20240308 07:00:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 07:10:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1580. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 07:10:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 07:10:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 07:10:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+07:10:00', '%H'), ':', date_format('2024-03-08 07:10:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 07:10:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
+20240308 07:20:00.002 [scheduling-1] DEBUG j.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1591. /* *BATCH_LOG* */ select ID , 'Y' AS batch_yn from AUTO_CALL_CONDITION C where 1 = 1 and USE_YN 
+= 'Y' and ACTIVE_STATUS = 1 and (START_DTM <= date_format('2024-03-08 07:20:00', '%Y-%m-%d') 
+and END_DTM >= date_format('2024-03-08 07:20:00', '%Y-%m-%d')) and (WEEK_DAY LIKE CONCAT('%', 
+dayofweek('2024-03-08 07:20:00'),'%')) and date_format(DISPATCH_TIME, '%H:%i') = CONCAT(date_format('2024-03-08 
+07:20:00', '%H'), ':', date_format('2024-03-08 07:20:00', '%i') div 10, '0') 
+ {executed in 1 msec} 
+20240308 07:20:00.002 [scheduling-1] INFO j.resultsettable - 
+|---|---------|
+|id |batch_yn |
+|---|---------|
+|---|---------|
+ 
